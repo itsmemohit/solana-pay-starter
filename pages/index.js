@@ -17,13 +17,22 @@ const App = () => {
     : false;
   const [creating, setCreating] = useState(false);
   const [products, setProducts] = useState([]);
-
+  //https://media.giphy.com/media/CU8abIBThDh09NUg2a/giphy.gif
   const renderNotConnectedContainer = () => (
     <div>
-      <img
-        src="https://media.giphy.com/media/CU8abIBThDh09NUg2a/giphy.gif"
-        alt="emoji"
-      />
+      <img src="https://i.ibb.co/XDn0FVh/ticket-ads.png" alt="emoji" />
+      {/* <a href="https://ibb.co/jHSY8Kh">
+        <img
+          src="https://i.ibb.co/pnST1D2/ready-for-some-adventure.png"
+          alt="ready-for-some-adventure"
+          border="0"
+        />
+      </a>
+      <br />
+      <a target="_blank" href="https://dedupelist.com/">
+        show duplicates online
+      </a>
+      <br /> */}
 
       <div className="button-container">
         <WalletMultiButton className="cta-button connect-wallet-button" />
