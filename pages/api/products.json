@@ -1,9 +1,11 @@
 [
   {
-    "id": 1,
-    "name": "Adventure Games - The Hidden Hour | Halloween 2022",
-    "price": "0.01",
+    "id": 2,
+    "name": "Adventure Games - The Hidden Hour | 12 Jan 2023",
+    "price": "1",
     "image_url": "https://i.ibb.co/W0pYgFR/tickets.png",
-    "description": "The game is suitable for all age groups from 5 to 70 years and requires no physical exertion. It’s a perfect place for friends, families, couples, students, corporate events and birthday parties. We provide private experience and you only play with your own group. We take all the Covid precautions with compulsory sanitization of rooms after each game."
+    "description": "The game is suitable for all age groups from 5 to 70 years and requires no physical exertion.",
+    "filename": "Ticket.zip",
+    "hash": "QmV6wC8eEei6op8GvYdtbUsH6vZPoqzpwp9cTamq6XPgJK"
   }
 ]
