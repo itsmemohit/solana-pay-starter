@@ -55,9 +55,9 @@ const App = () => {
       <HeadComponent />
       <div className="container">
         <header className="header-container">
-          <p className="header"> Emoji Store</p>
+          <p className="header"> Ticket Store</p>
           <p className="sub-text">
-            The only emoji store that accepts shitcoins
+            Buy tickets for your favorite events and concerts
           </p>
 
           {isOwner && (
@@ -75,7 +75,7 @@ const App = () => {
           {publicKey ? renderItemBuyContainer() : renderNotConnectedContainer()}
         </main>
 
-        <div className="footer-container">
+        {/* <div className="footer-container">
           <img
             alt="Twitter Logo"
             className="twitter-logo"
@@ -87,7 +87,7 @@ const App = () => {
             target="_blank"
             rel="noreferrer"
           >{`built on @${TWITTER_HANDLE}`}</a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
